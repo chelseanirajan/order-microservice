@@ -17,8 +17,6 @@ public class OrderServiceImpl implements OrderService{
     @Autowired
     private OrderRepository orderRepository;
     @Autowired
-    SequenceGenerator sequenceGenerator;
-    @Autowired
     private RestTemplate restTemplate;
     @Override
     public Order addOrder(OrderDTOFromFront orderDTOFromFront) {
